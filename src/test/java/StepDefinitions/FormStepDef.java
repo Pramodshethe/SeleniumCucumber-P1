@@ -18,6 +18,7 @@ public class FormStepDef {
 	@Before
 	public void setup() {
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}	
 	
 	/*
